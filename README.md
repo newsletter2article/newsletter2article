@@ -21,4 +21,4 @@ To ensure this, the following types of content are strictly prohibited:
 Keep in mind that I'm trying this out to see how well and how much use this will get.
 If I see blatant abuse, I could erase this repo and just host a personal page for the newsletters I find deserve to be shared. So, please, try and respect the rules, don't make me rebase, reset the head of this or even nuke the whole thing if necessary.
 
-In an age of widespread misinformation, where any knucklehead can record himself spouting all sorts of nonsense just to get views and line his pocket, I find that proper investigative journalism, a dying breed sadly, deserves some more exposure. If you feel the same, you're most welcome to join in the effort!
+In an age of widespread disinformation, where any knucklehead can record himself spouting all sorts of nonsense just to get views and line his pocket, I find that proper investigative journalism, a dying breed sadly, deserves some more exposure. If you feel the same, you're most welcome to join in the effort!
