@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en"><head>
+<title>Mozilla</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<style type="text/css">
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8ccezI9tScg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajQ6_UyI.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajo6_Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6H2pW2hz.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6HOpWw.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+</style>
+<style type="text/css">
+	#outlook a {
+        padding: 0;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass span,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        display: block;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+      }
+      .appleFooter a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleText a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleWhite a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+  
+      u+.body .glist {
+        margin-left: 0 !important;
+      }
+      u+.body .ghide {
+        display: none;
+        display: none !important;
+      }
+      u+.body .gshow {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: 100% !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+       @media only screen and (max-width: 480px) {
+		 .cta.btn-top{
+		   padding-left: 5px !important;
+		   padding-right: 5px !important;
+		 }
+		 .mobile-list{
+			margin-left: 5px !important;
+		 }
+        }
+      @media only screen and (max-width: 640px) {
+        u+.body .glist {
+          margin-left: 25px !important;
+        }
+        .hideme {
+          display: none;
+          display: none !important;
+        }
+        .blockwrap {
+          display: block !important;
+        }
+        .inline {
+          display: inline !important;
+        }
+        .text-center {
+          text-align: center !important;
+        }
+        .margin-center {
+          margin: 0 auto !important;
+        }
+        .h30 {
+          height: 30px !important;
+        }
+        .mw450 {
+          width: 100%;
+          max-width: 450px !important;
+        }
+        .w100p {
+          width: 100% !important;
+        }
+        .wauto {
+          width: auto !important;
+        }
+        .column-spacer {
+          padding: 0 !important;
+          line-height: 15px !important;
+        }
+		.center-on-narrow {
+		text-align: center !important;
+		display: block !important;
+		float: none !important; 
+	    }
+        
+      }
+      
+      .fadeimg,
+      .fadeimg0 {
+        transition: 0.3s !important;
+        opacity: 1 !important;
+      }
+      .fadeimg:hover {
+        transition: 0.3s !important;
+        opacity: 0.5 !important;
+      }
+      .fadeimg0:hover {
+        transition: 0.3s !important;
+        opacity: 0 !important;
+      }
+      
+      .cta,
+      .cta span,
+      .cta-border {
+        transition: 0.3s !important;
+      }
+      
+      .cta:hover {
+        transition: 0.3s !important;
+        
+      }
+      
+      
+      
+      [data-ogsc] .darkmode {
+        background-color: #272623 !important;
+      }
+      [data-ogsc] .darkmode-footer {
+        background-color: #000000 !important;
+      }
+		  [data-ogsc] .dm-white {
+    color: #000000 !important;
+}
+[data-ogsc] .callout {
+    color: #ffffff !important;
+	
+}
+[data-ogsc] .callout p {
+    color: #ffffff !important;
+	
+}
+		  
+      [data-ogsc] h1,
+      [data-ogsc] h2,  
+	  [data-ogsc] h3,
+      [data-ogsc] p,
+      [data-ogsc] a,
+      [data-ogsc] b,
+	  [data-ogsc] strong,
+	  [data-ogsc] ul,
+	  [data-ogsc] li,
+	  [data-ogsc] ol,  
+      [data-ogsc] .appleText a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .accent {
+        color: #595cf3 !important;
+      }
+      [data-ogsc] a.cta span {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .darkmode-footer a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .link {
+        color: #b7b9fa !important;
+      }
+      [data-ogsc] .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: 45px !important;
+        max-width: 158px !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+      [data-ogsc] .light-img {
+        display: none;
+        display: none !important;
+      }
+      @media (prefers-color-scheme: dark) {
+       
+      .lightimage {
+          display: none; display: none !important;
+      }
+      
+      .darkimageWrapper, .darkimage {
+          display: inline-block !important;
+      }
+      
+      .darkmode {
+          background-color: #272623 !important;
+      }
+             
+        .darkmode-footer {
+          background-color: #000000 !important;
+        }
+	  .dm-white {
+    color: #000000 !important;
+	
+		}
+		
+.link, a.link {
+    color: #0D10BF !important;
+}
+		  h1.dm-white, h2.dm-white, p.dm-white {
+    color: #000000 !important;
+}
+		   h1, h2, h3, p, b, a, ul, li {
+    color: #ffffff !important;
+}
+        
+        .accent {
+          color: #595cf3 !important;
+        }
+        
+		  
+        .darkmode-footer a {
+          color: #ffffff !important;
+        }
+        .link {
+          color: #b7b9fa !important;
+        }
+        .dark-img {
+          display: block !important;
+          width: auto !important;
+          overflow: visible !important;
+          float: none !important;
+          max-height: 45px !important;
+          max-width: 158px !important;
+          line-height: auto !important;
+          margin-top: 0px !important;
+          visibility: inherit !important;
+        }
+        .light-img {
+          display: none;
+          display: none !important;
+        }
+      }
+	</style>
+<style type="text/css">
+    
+    .pop {display: inline-block;
+	transition: all .09s ease;
+	box-shadow: 7px 8px 0px 0px #000000; -webkit-box-shadow: 7px 8px 0px 0px #000000;}
+	.pop:hover{
+		box-shadow:none!important;
+		-webkit-box-shadow: none!important;
+		transform: translate(8px,7px)!important;}
+	</style>
+<style type="text/css">
+	.cta:hover {
+	border:none !important;
+	background-image: none !important;
+	}
+.btn-primary:hover {
+    background-color: #0D10BF !important;
+	background-image: none !important;
+	border: 2px solid #0D10BF !important;
+	color: #ffffff !important;
+          }
+.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+  .btn-green:hover {
+    background-color: #109462 !important;
+	background-image: none !important;
+	border: 2px solid #109462 !important;
+	color: #ffffff !important;
+          }
+.btn-zilla:hover {
+    background-color: #005e2a !important;
+	background-image: none !important;
+	border: 2px solid #005e2a !important;
+	color: #ffffff !important;
+          }
+    .btn-passion:hover {
+    background-color: #7f00ca !important;
+	background-image: none !important;
+	border: 2px solid #7f00ca !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-secondary:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+.btn-secondary:hover  .darkimageWrapper, .btn-secondary:hover .darkimage {
+    display: inline-block !important;
+}
+        
+        .btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-top:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+    .cta.btn-top:hover, a.cta.btn-top:hover, .cta.btn-secondary:hover, a.cta.btn-secondary:hover  {color: #fffff0 !important; background-color:#000000 !important;}
+.btn-top:hover  .btn-top:hover .darkimage {
+    display: inline-block !important;
+}
+	a img:hover {opacity: 0.8;}
+	</style>
+<style type="text/css">
+	@media (prefers-color-scheme: dark) {
+		 .cta.btn-secondary, a.cta.btn-secondary {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-secondary, a.cta.btn-secondary {color: #00000f !important;}
+    
+		
+        .cta.btn-top, a.cta.btn-top {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-top, a.cta.btn-top {color: #00000f !important;}
+		  }
+		  
+		  [data-ogsc] .cta.btn-secondary{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-secondary, [data-ogsc] a.cta.btn-secondary {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-secondary:hover,[data-ogsc] a.cta.btn-secondary:hover {
+  color: #ffffff !important;}
+        
+        
+    
+		
+		  
+		  
+		  [data-ogsc] .cta.btn-top{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-top, [data-ogsc] a.cta.btn-top {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-top:hover,[data-ogsc] a.cta.btn-top:hover {
+  color: #ffffff !important;}
+	.footer {    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+    </style>
+<style type="text/css">
+        u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+        u + .body .gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-difference { background:#000; mix-blend-mode:difference; }
+	     u + .body span.gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body span.gmail-difference { background:#000; mix-blend-mode:difference; }
+	  u + .body .dm_white { background:#ffffff; mix-blend-mode:screen;color:#000000; }
+      u + .body .dm_white { background:#ffffff; mix-blend-mode:difference;color:#000000; }
+	
+</style>
+	<style>
+        .hideDesktop {
+          display: none;
+        }
+        @media only screen and (max-width: 640px) {
+			.hideDesktop {
+			  display:block !important;
+			}
+			.hideMobile {
+			  display: none !important;
+			}
+        }
+    </style>
+    <style>
+        @media all and (max-device-width: 412px)
+        {
+            
+           .Px{font-size: 1em !important; line-height: 1.2 !important; margin-bottom: 7px!important;}
+        }
+    
+    </style> 
+<!--[if gte mso 16]>
+	<style>
+		.keep_white {
+			mso-style-textfill-type:gradient !important !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000" !important !important;
+			color: #000000 !important;
+		}
+		.keep_black {
+			mso-style-textfill-type:gradient !important !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000" !important !important;
+			color: #ffffff !important;
+		}
+	</style>
+	<![endif]--> 
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+<body class="body" id="body" style="padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;text-align:center;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;height:100% !important;width:100% !important;" >
+<div itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="logo" content="https://assets.mofoprod.net/network/images/Mozilla-48x48.original.png" />
+</div>
+    <div style="display:none;" >
+The clock is ticking, Meta.
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+&nbsp;
+</div>
+    
+<table class="body" align="center" aria-label="Email from Mozilla" border="0" cellpadding="0" cellspacing="0" lang="en" role="article" style="width:100%;text-align:center;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;table-layout:fixed;background-color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td bgcolor="#ffffff" class="darkmode" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td style="font-size:1px;line-height:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+        
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr>
+                      <td align="center" class="w100p" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="w100p darkmode" role="presentation" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                          <tbody>
+                            <tr>
+                              <td align="left" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" > 
+                                <a href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-r/" name="Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Mozilla" class="lightimage"  name="Logo"  src="https://i1.cmail20.com/ei/y/7E/375/E08/231503/csimport/moz-logo-bw-rgb158original_0.png"  title="Mozilla " width="158" style="border-width:0px;border-style:none;max-width:158px;height:auto;display:block;text-align:left;font-size:36px;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /> </a> 
+                                 
+                                <!--[if !mso]><! --> 
+                            <div align="center" class="dark-img" style="display:none;overflow:hidden;float:left;width:0px;max-height:0px;max-width:0px;line-height:0px;visibility:hidden;" > <a href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-y/" name="Dark_Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="❤️ Mozilla ❤️" class="darkimage"  name="Logo Darkmode" src="https://i2.cmail20.com/ei/y/7E/375/E08/231503/csimport/moz-logo-reverse-rgb-298original_1.png"  title="❤️ Mozilla ❤️" width="158" style="border-width:0;border-style:none;max-width:158px;height:auto;display:block;text-align:left;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /></a></div>
+                           
+                              <!--<![endif]--> 
+                                
+                                </td>
+                              <td align="right" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><div> 
+                                  <a class="cta btn-top" href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-j/" name="Donate_Top" style="font-size:16px;font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-weight:bold;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:25px;padding-left:25px;color:#000000;display:inline-block;border-width:2px;border-style:solid;border-color:#000000;mso-padding-alt:0;mso-border-alt:2px solid #000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" > 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt;" >&nbsp;</i><![endif]--><span style="mso-text-raise:15pt;transition:0.3s !important;" > Donate </span> 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></a> 
+                                   
+                                </div></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tr>
+                    <td align="left" class="w100p" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <td  class="" style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h2 style="font-size:24px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:'Zilla Slab', Georgia, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;color:#000000;" >Hello, Reader</h2>
+                     
+                      <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>The countdown is on.</strong> In less than one month, Meta is set to kill its industry-leading transparency tool, CrowdTangle – and its replacement <strong>*still*</strong> isn&rsquo;t as effective or accessible for the researchers monitoring election monitors. </p>
+					   					  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >But here&rsquo;s the good news: after months of sustained pressure from the Mozilla community, election integrity experts and regulators, Meta&rsquo;s starting to crack. <strong>You&rsquo;ve supported this campaign by signing Mozilla&rsquo;s petition,</strong> so I wanted to share a quick summary of the significant changes made by Meta that directly respond to some of our collective demands. </p>
+					  					   
+					 
+						
+                      <h2 style="font-size:24px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:'Zilla Slab', Georgia, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;" >Here&rsquo;s a list of our demands and how Meta has responded to them (so far): </h2>
+						
+						
+                      
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="blockwrap" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <th width="300" align="center" class="blockwrap w100p"  valign="top" style="vertical-align:top;" ><h3 style="font-size:18px;Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;" ><strong>What we&rsquo;re calling for: </strong></h3>
+                            <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:left;" >Regularly <strong>consult the global CrowdTangle community</strong> to ensure the Content Library becomes an effective tool.</p></th>
+                           <th class="hideMobile" width="20">&nbsp;</th>
+                            <th align="left" class="blockwrap w100p"  valign="top" style="vertical-align:top;" > <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                <tbody>
+                                  <tr>
+                                    <td align="left"  valign="top" class="" style="vertical-align:top;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><h3 style="font-size:18px;Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;" ><strong>Meta&rsquo;s response: </strong></h3>
+                                         
+                                                  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:left;" ><img src="https://i3.cmail20.com/ei/y/7E/375/E08/231503/csimport/green-dotoriginal_2.png" alt="Green Circle" width="16" height="16" style="display:inline-block;-ms-interpolation-mode:bicubic;border-width:0;height:auto;line-height:100%;outline-style:none;text-decoration:none;" >&nbsp;&nbsp;Meta has agreed to meet with CrowdTangle researchers and listen to their concerns to improve the tool. </p>
+                                               
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>  
+					   
+                       <div ><hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:98%;max-width:600px;height:2px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" ></div>
+                        
+<table class="hideMobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="blockwrap" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <th width="300" align="center" class="blockwrap w100p"  valign="top" style="vertical-align:top;" ><h3 class="hideDesktop" style="font-size:18px;Margin:24px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>What we&rsquo;re calling for: </strong></h3>
+                            <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:left;" >Quickly <strong>onboard all CrowdTangle users</strong> focused on election integrity to their  new tool, Content Library – including NGOs, researchers, and news outlets.</p></th>
+                            <th class="hideMobile" width="20">&nbsp;</th>
+                            <th align="left" class="blockwrap w100p"  valign="middle" style="vertical-align:middle;" > <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                <tbody>
+                                  <tr>
+                                    <td align="left"  valign="top" class="" style="vertical-align:top;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><h3 class="hideDesktop" style="font-size:18px;Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>Meta&rsquo;s response: </strong></h3>
+                                         
+                                                  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0px 0px 24px 0px;font-weight:normal;text-align:left;" ><img src="https://i4.cmail20.com/ei/y/7E/375/E08/231503/csimport/orange-dotoriginal_3.png" alt="Orange Circle" width="16" height="16" style="display:inline-block;-ms-interpolation-mode:bicubic;border-width:0;height:auto;line-height:100%;outline-style:none;text-decoration:none;" >&nbsp;&nbsp;Meta has expanded Content Library access to researchers and advocacy groups. But concerns remain about the burdensome application process, denial of access to journalists from for-profit newsrooms, and Meta&rsquo;s need to still onboard tens of thousands of organisations who have applied for access. </p>
+                                               
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                        
+                       <div><hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:98%;max-width:600px;height:2px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" ></div>
+                        
+<table class="hideMobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="blockwrap" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <th width="300" align="center" class="blockwrap w100p"  valign="top" style="vertical-align:top;" ><h3 class="hideDesktop" style="font-size:18px;Margin:24px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>What we&rsquo;re calling for: </strong></h3>
+                            <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:left;" >As soon as possible, both the <strong>Content Library and CrowdTangle should include data on election-related labels</strong> added by Meta, particularly regarding fact-checking and voter interference.</p></th>
+                            <th class="hideMobile" width="20">&nbsp;</th>
+                            <th align="left" class="blockwrap w100p"  valign="middle" style="vertical-align:middle;" > <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                <tbody>
+                                  <tr>
+                                    <td align="left"  valign="top" class="" style="vertical-align:top;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><h3 class="hideDesktop" style="font-size:18px;Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>Meta&rsquo;s response: </strong></h3>
+                                         
+                                                  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0px 0px 24px 0px;font-weight:normal;text-align:left;" ><img src="https://i5.cmail20.com/ei/y/7E/375/E08/231503/csimport/red-dotoriginal_4.png" alt="Red Circle" width="16" height="16" style="display:inline-block;-ms-interpolation-mode:bicubic;border-width:0;height:auto;line-height:100%;outline-style:none;text-decoration:none;" >&nbsp;&nbsp;Meta has yet to implement this change – their  refusal to label election-related content compromises our collective ability to protect elections from disinformation and hate speech.</p>
+                                               
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+						</table>
+						
+                       <div ><hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:98%;max-width:600px;height:2px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" ></div>
+                        
+						<table class="hideMobile" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+						</table>
+						
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="blockwrap" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <th width="300" align="center" class="blockwrap w100p"  valign="top" style="vertical-align:top;" ><h3 class="hideDesktop" style="font-size:18px;Margin:24px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>What we&rsquo;re calling for: </strong></h3>
+                            <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:left;" ><strong>Keep CrowdTangle functioning beyond August 14.</strong></p></th>
+                            <th class="hideMobile" width="20">&nbsp;</th>
+                            <th align="left" class="blockwrap w100p"  valign="middle" style="vertical-align:middle;" > <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                <tbody>
+                                  <tr>
+                                    <td align="left"  valign="top" class="" style="vertical-align:top;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><h3 class="hideDesktop" style="font-size:18px;Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;font-weight:normal;display:none;" ><strong>Meta&rsquo;s response: </strong></h3>
+                                         
+                                                  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0px 0px 0px 0px;font-weight:normal;text-align:left;" ><img src="https://i5.cmail20.com/ei/y/7E/375/E08/231503/csimport/red-dotoriginal_4.png" alt="Red Circle" width="16" height="16" style="display:inline-block;-ms-interpolation-mode:bicubic;border-width:0;height:auto;line-height:100%;outline-style:none;text-decoration:none;" >&nbsp;&nbsp;So far, Meta has refused to extend their deadline and plans to shut down CrowdTangle on 14 August – despite its replacement still lacking substantial upgrades to its functionality.</p>
+                                               
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+					     
+						<table class="hideDesktop" border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;display:none;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+						</table>
+						
+                       <div class="hideDesktop" style="display:none;" ><hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:98%;max-width:600px;height:2px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" ></div>
+                      
+					 
+                         
+                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+					     <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+					     </tbody>
+					  </table>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>The changes that Meta has made are a step in the right direction, but they are still not enough and the clock is ticking.</strong> With less than a month left, we need to push Meta to make these critical changes to the transparency and accessibility of the new Content Library – or keep CrowdTangle functioning until these improvements are made. </p>
+                        
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>In this crucial final month, let&rsquo;s pile on the pressure on Meta</strong> and make clear to them how important it is to maintain CrowdTangle&rsquo;s approach and protect the integrity of elections.<sup style="font-size:12px;line-height:0px;" >1</sup></p>
+						                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Since you&rsquo;ve already signed the petition – thank you! – we&rsquo;re hoping that you can make a donation today during this pivotal moment for our campaign.</strong></p>    
+                       
+					   <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><a  href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-k/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Will you consider making a $10 USD donation to support this final push to secure real-time platform transparency from Meta? The clock is ticking, and Meta needs to feel the pressure – your contribution will support this final stretch of this campaign. </strong></a></p>
+                       
+					  
+						
+						<div align="center"><a bgcolor="#2CC98E" class="cta btn-green" href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-u/" style="font-family:Helvetica, Arial, sans-serif;background-color:#2CC98E;background-image:linear-gradient(#2CC98E,#2CC98E);border-width:2px;border-style:solid;border-color:#2CC98E;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#2CC98E;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:15pt;transition:0.3s !important;" ><strong> Donate now&nbsp;&rarr; </strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a></div>
+						
+					    
+						
+					  	
+					  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+					     <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+					     </tbody>
+					  </table>
+					  
+					  
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Whatever Meta chooses to do next will have a direct effect on election integrity experts and their ability to do their work.</strong> What happens next will determine whether journalists, researchers and watchdogs will have an effective tool to track content during critical democratic moments. And what happens next will directly affect our collective ability to understand how disinformation, hate speech and voter-suppression content spread on Facebook and Instagram. </p>
+                        
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Our pressure so far has gotten Meta to make some improvements – but <strong>it&rsquo;ll be our sustained pressure over the next month that&rsquo;ll determine whether the world continues to have a suitable transparency tool for monitoring disinformation</strong> on Facebook and Instagram.</p>
+						<p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Together, let&rsquo;s do everything we can over the next month to maintain CrowdTangle&rsquo;s approach and to protect elections.</strong> </p>
+						                           
+                       
+					   <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><a  href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-c/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Can you make a $10 USD donation to Mozilla today? The final month is critical in this campaign to maintain transparency into Facebook and Instagram, and your contribution can help get this campaign over the finish line.</strong></a></p>
+                       
+					  
+						<div align="center"><a bgcolor="#2CC98E" class="cta btn-green" href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-q/" style="font-family:Helvetica, Arial, sans-serif;background-color:#2CC98E;background-image:linear-gradient(#2CC98E,#2CC98E);border-width:2px;border-style:solid;border-color:#2CC98E;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#2CC98E;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:30pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:15pt;transition:0.3s !important;" ><strong> Donate now&nbsp;&rarr; </strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a></div>
+					    
+					   
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+						</table>
+						
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Thank you for all you do for the internet, and to protect elections around the world.</p>
+                        
+                      <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 0px 0px;font-weight:normal;" ><strong>Claire Pershan</strong><br />
+EU Advocacy Lead<br />
+                        Mozilla</p>
+						
+					<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+					  <tbody>
+						<tr>
+						  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+						</tr>
+					  </tbody>
+					</table>
+					
+                      <hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:100%;max-width:600px;height:2px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" >
+                        
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+						</table>
+						
+                        
+                        
+                      <h2 class="light" style="font-size:18px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:Georgia, sans-serif;line-height:1.3;text-align:Left;vertical-align:Top;" >More Information:</h2>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >1. For some recent examples of online disinformation spread during major democratic moments, take a look at <a  href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-z/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>a list of threats</strong></a> documented during this year&rsquo;s European elections. 
+</p>
+                      
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <td style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        
+         
+        
+        
+        <table class="darkmode" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="w100p darkmode-footer" role="presentation" style="width:640px;max-width:640px;background-color:#000000;background-image:linear-gradient(#000000,#000000);color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr> 
+                      <!--[if gte mso 16]>
+					  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;text-align:center;" >
+						<v:fill color="#000000" />
+						<v:textbox  inset="0,0,0,0" style="mso-fit-shape-to-text:true;" >
+					  <![endif]-->
+                      <div>
+                        <td align="center" style="padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h2 class="keep_white h2_footer" style="font-size:24px;font-weight:400;font-family:Georgia, serif;Margin:0px 0px 10px 0px;text-align:center;color:#ffffff;line-height:20px;" >Connect with us</h2>
+                              <!--[if lt mso 16]--> 
+                            </div>
+                          </div>
+                          
+                          <!--[endif]-->
+                          
+                          
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"  width="100%" style="border-spacing:0;font-family:Helvetica, Arial, sans-serif;color:#000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td align="center"  valign="middle" style="Padding:0px 0px 0px 0px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><a href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-v/" name="twitter" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="X" height="24" src="https://i6.cmail20.com/ei/y/7E/375/E08/231503/csimport/x-white-24original_5.png"  title="X" width="28" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a>&nbsp; <a href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-e/" name="youtube" 
+style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="YouTube" height="26" src="https://i7.cmail20.com/ei/y/7E/375/E08/231503/csimport/youtube-white-24original_6.png"  title="YouTube" width="27" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a href="https://links.mozilla.org/t/y-l-mtjute-dditeijdr-s/" name="instagram" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Instagram" height="26" src="https://i8.cmail20.com/ei/y/7E/375/E08/231503/csimport/instagram-white-24original_7.png"  title="Instagram" width="26" 
+style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:30px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h3 class="keep_white" style="font-size:18px;font-weight:bold;font-family:Georgia, serif;Margin:0px 0px 5px 0px;text-align:center;color:#FFFFFF;line-height:20px;" >Thanks for reading!</h3>
+                              <p class="keep_white footer" style="text-align:Center;font-weight:400;font-size:14px;line-height:1.5;font-family:Helvetica, Arial, sans-serif;color:#ffffff;Margin:0px 0px 24px 0px;background-color:#000000;" >You&rsquo;re receiving this email because you subscribed to Mozilla News. 
