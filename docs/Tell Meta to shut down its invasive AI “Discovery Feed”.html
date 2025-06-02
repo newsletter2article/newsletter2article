@@ -1,0 +1,842 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en"><head>
+<title>Mozilla</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<style type="text/css">
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8ccezI9tScg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajQ6_UyI.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajo6_Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6H2pW2hz.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6HOpWw.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+</style>
+<style type="text/css">
+	#outlook a {
+        padding: 0;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass span,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        display: block;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+      }
+      .appleFooter a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleText a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleWhite a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+  
+      u+.body .glist {
+        margin-left: 0 !important;
+      }
+      u+.body .ghide {
+        display: none;
+        display: none !important;
+      }
+      u+.body .gshow {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: 100% !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+       @media only screen and (max-width: 480px) {
+		 .cta.btn-top{
+		   padding-left: 5px !important;
+		   padding-right: 5px !important;
+		 }
+		 .mobile-list{
+			margin-left: 5px !important;
+		 }
+        }
+      @media only screen and (max-width: 640px) {
+        u+.body .glist {
+          margin-left: 25px !important;
+        }
+        .hideme {
+          display: none;
+          display: none !important;
+        }
+        .blockwrap {
+          display: block !important;
+        }
+        .inline {
+          display: inline !important;
+        }
+        .text-center {
+          text-align: center !important;
+        }
+        .margin-center {
+          margin: 0 auto !important;
+        }
+        .h30 {
+          height: 30px !important;
+        }
+        .mw450 {
+          width: 100%;
+          max-width: 450px !important;
+        }
+        .w100p {
+          width: 100% !important;
+        }
+        .wauto {
+          width: auto !important;
+        }
+        .column-spacer {
+          padding: 0 !important;
+          line-height: 15px !important;
+        }
+		.center-on-narrow {
+		text-align: center !important;
+		display: block !important;
+		float: none !important; 
+	    }
+        
+      }
+      
+      .fadeimg,
+      .fadeimg0 {
+        transition: 0.3s !important;
+        opacity: 1 !important;
+      }
+      .fadeimg:hover {
+        transition: 0.3s !important;
+        opacity: 0.5 !important;
+      }
+      .fadeimg0:hover {
+        transition: 0.3s !important;
+        opacity: 0 !important;
+      }
+      
+      .cta,
+      .cta span,
+      .cta-border {
+        transition: 0.3s !important;
+      }
+      
+      .cta:hover {
+        transition: 0.3s !important;
+        
+      }
+      
+      
+      
+      [data-ogsc] .darkmode {
+        background-color: #272623 !important;
+      }
+      [data-ogsc] .darkmode-footer {
+        background-color: #000000 !important;
+      }
+		  [data-ogsc] .dm-white {
+    color: #000000 !important;
+}
+[data-ogsc] .callout {
+    color: #ffffff !important;
+	
+}
+[data-ogsc] .callout p {
+    color: #ffffff !important;
+	
+}
+		  
+      [data-ogsc] h1,
+      [data-ogsc] h2,  
+	  [data-ogsc] h3,
+      [data-ogsc] p,
+      [data-ogsc] a,
+      [data-ogsc] b,
+	  [data-ogsc] strong,
+	  [data-ogsc] ul,
+	  [data-ogsc] li,
+	  [data-ogsc] ol,  
+      [data-ogsc] .appleText a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .accent {
+        color: #595cf3 !important;
+      }
+      [data-ogsc] a.cta span {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .darkmode-footer a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .link {
+        color: #b7b9fa !important;
+      }
+      [data-ogsc] .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: 45px !important;
+        max-width: 158px !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+      [data-ogsc] .light-img {
+        display: none;
+        display: none !important;
+      }
+      @media (prefers-color-scheme: dark) {
+       
+      .lightimage {
+          display: none; display: none !important;
+      }
+      
+      .darkimageWrapper, .darkimage {
+          display: inline-block !important;
+      }
+      
+      .darkmode {
+          background-color: #272623 !important;
+      }
+             
+        .darkmode-footer {
+          background-color: #000000 !important;
+        }
+	  .dm-white {
+    color: #000000 !important;
+	
+		}
+		
+.link, a.link {
+    color: #0D10BF !important;
+}
+		  h1.dm-white, h2.dm-white, p.dm-white, span.dm-white {
+    color: #000000 !important;
+}
+		   h1, h2, h3, p, b, a, ul, li {
+    color: #ffffff !important;
+}
+        
+        .accent {
+          color: #595cf3 !important;
+        }
+        
+		  
+        .darkmode-footer a {
+          color: #ffffff !important;
+        }
+        .link {
+          color: #b7b9fa !important;
+        }
+          
+        .dark-img {
+          display: block !important;
+          width: auto !important;
+          overflow: visible !important;
+          float: none !important;
+          max-height: 45px !important;
+          max-width: 158px !important;
+          line-height: auto !important;
+          margin-top: 0px !important;
+          visibility: inherit !important;
+        }
+        .light-img {
+          display: none;
+          display: none !important;
+        }
+      }
+	</style>
+<style type="text/css">
+    
+    .pop {display: inline-block;
+	transition: all .09s ease;
+	box-shadow: 7px 8px 0px 0px #000000; -webkit-box-shadow: 7px 8px 0px 0px #000000;}
+	.pop:hover{
+		box-shadow:none!important;
+		-webkit-box-shadow: none!important;
+		transform: translate(8px,7px)!important;}
+	</style>
+<style type="text/css">
+	.cta:hover {
+	border:none !important;
+	background-image: none !important;
+	}
+.btn-primary:hover {
+    background-color: #0D10BF !important;
+	background-image: none !important;
+	border: 2px solid #0D10BF !important;
+	color: #ffffff !important;
+          }
+.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+   .btn-green:hover {
+    background-color: #005E3A !important;
+	background-image: none !important;
+	border: 2px solid #005E3A !important;
+	color: #ffffff !important;
+          }
+    .btn-DarkGreen:hover {
+    background-color: #003420 !important;
+	background-image: none !important;
+	border: 2px solid #003420 !important;
+	color: #ffffff !important;
+          }
+.btn-zilla:hover {
+    background-color: #005e2a !important;
+	background-image: none !important;
+	border: 2px solid #005e2a !important;
+	color: #ffffff !important;
+          }
+    .btn-passion:hover {
+    background-color: #7f00ca !important;
+	background-image: none !important;
+	border: 2px solid #7f00ca !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-secondary:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+.btn-secondary:hover  .darkimageWrapper, .btn-secondary:hover .darkimage {
+    display: inline-block !important;
+}
+        
+        .btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-top:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+    .cta.btn-top:hover, a.cta.btn-top:hover, .cta.btn-secondary:hover, a.cta.btn-secondary:hover  {color: #fffff0 !important; background-color:#000000 !important;}
+.btn-top:hover  .btn-top:hover .darkimage {
+    display: inline-block !important;
+}
+	a img:hover {opacity: 0.8;}
+	</style>
+<style type="text/css">
+	@media (prefers-color-scheme: dark) {
+		 .cta.btn-secondary, a.cta.btn-secondary {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-secondary, a.cta.btn-secondary {color: #00000f !important;}
+    
+		
+        .cta.btn-top, a.cta.btn-top {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-top, a.cta.btn-top {color: #00000f !important;}
+		  }
+		  
+		  [data-ogsc] .cta.btn-secondary{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-secondary, [data-ogsc] a.cta.btn-secondary {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-secondary:hover,[data-ogsc] a.cta.btn-secondary:hover {
+  color: #ffffff !important;}
+        
+        
+    
+		
+		  
+		  
+		  [data-ogsc] .cta.btn-top{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-top, [data-ogsc] a.cta.btn-top {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-top:hover,[data-ogsc] a.cta.btn-top:hover {
+  color: #ffffff !important;}
+	.footer {    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+    </style>
+<style type="text/css">
+        u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+        u + .body .gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-difference { background:#000; mix-blend-mode:difference; }
+	     u + .body span.gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body span.gmail-difference { background:#000; mix-blend-mode:difference; }
+	  u + .body .dm_white { background:#ffffff; mix-blend-mode:screen;color:#000000; }
+      u + .body .dm_white { background:#ffffff; mix-blend-mode:difference;color:#000000; }
+	
+	
+	@media only screen and (max-width: 811px) {
+		u + .body .mobile-sup {
+			line-height:18px !important;
+		}
+		div > u + .body .mobile-sup {
+			line-height: 0px !important;
+		}
+	}
+</style>
+<!--[if mso 16]> 
+	<style>
+		ul li.outlook-li, ol li.outlook-li{margin-left: 5px !important !important;}
+	</style>
+<![endif]-->
+<!--[if gte mso 16]>
+	<style>
+		.keep_white {
+			mso-style-textfill-type:gradient !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000" !important;
+			color: #000000 !important;
+		}
+		.keep_black {
+			mso-style-textfill-type:gradient !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000" !important;
+			color: #ffffff !important;
+		}
+	</style>
+	<![endif]--> 
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+    
+    <style>
+        @media (prefers-color-scheme: dark )
+        
+        {
+            .highlight {
+                background-color: #E5D92F !important; 
+            }
+        
+        
+        }
+        </style>
+</head>
+<body class="body" id="body" style="padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;text-align:center;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;height:100% !important;width:100% !important;" >
+<div itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="logo" content="https://assets.mofoprod.net/network/images/Mozilla-48x48.original.png" />
+</div>
+    <div style="display:none;" >
+Meta's "Discover Feed" is exposing sensitive AI conversations. Sign Mozilla’s petition now to stop it. 
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+&nbsp;
+</div>
+    
+<table class="body" align="center" aria-label="Email from Mozilla" border="0" cellpadding="0" cellspacing="0" lang="en" role="article" style="width:100%;text-align:center;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;table-layout:fixed;background-color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td bgcolor="#ffffff" class="darkmode" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td style="font-size:1px;line-height:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+        
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr>
+                      <td align="center" class="w100p" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="w100p darkmode" role="presentation" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                          <tbody>
+                            <tr>
+                              <td align="left" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" > 
+                                <a href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-r/" name="Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Mozilla" class="lightimage"  name="Logo"  src="https://i1.cmail20.com/ei/y/85/4A4/65D/210825/csimport/mozilla-black-logooriginal_0.png"  title="Mozilla " width="158" style="border-width:0px;border-style:none;max-width:158px;height:auto;display:block;text-align:left;font-size:36px;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /> </a> 
+                                 
+                                <!--[if !mso]><! --> 
+                            <div align="center" class="dark-img" style="display:none;overflow:hidden;float:left;width:0px;max-height:0px;max-width:0px;line-height:0px;visibility:hidden;" > <a href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-y/" name="Dark_Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="❤️ Mozilla ❤️" class="darkimage"  name="Logo Darkmode" src="https://i2.cmail20.com/ei/y/85/4A4/65D/210825/csimport/mozilla-white-logooriginal_1.png"  title="❤️ Mozilla ❤️" width="158" style="border-width:0;border-style:none;max-width:158px;height:auto;display:block;text-align:left;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /></a></div>
+                           
+                              <!--<![endif]--> 
+                                
+                                </td>
+                              <td align="right" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                  
+                                <div> 
+                                  <a class="cta btn-top" href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-j/" name="Donate_Top" style="font-size:16px;font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-weight:bold;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:25px;padding-left:25px;color:#000000;display:inline-block;border-width:2px;border-style:solid;border-color:#000000;mso-padding-alt:0;mso-border-alt:2px solid #000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" > 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span style="mso-text-raise:8pt;transition:0.3s !important;" >&nbsp;Donate&nbsp;</span> 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></a> 
+                                   
+                                </div>
+                                  
+                               </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tr>
+                    <td align="left" class="w100p" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <td  class="" style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h2 style="font-size:24px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:'Zilla Slab', Georgia, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;color:#000000;" >Hello, Reader</h2>
+                        
+   
+                     
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >People are turning to AI chatbots for much more than polishing their work emails&nbsp; — like job advice, relationship questions, and even to share personal photos.<sup class="mobile-sup" style="font-size:12px;line-height:0px;" >1</sup> Many people assume those queries stay between them and their screens. But what if those AI conversations were suddenly broadcast to the world?</p>
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Meta recently launched an AI assistant with a social &ldquo;Discover Feed&rdquo; — a public stream of conversations users had with the AI.<sup class="mobile-sup" style="font-size:12px;line-height:0px;" >2</sup></p>
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >The result? </p>
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Incredibly sensitive, deeply personal messages — medical concerns, relationship confessions, legal anxieties, even exact locations — are ending up online, tied to real people&rsquo;s profiles.</strong> Meta says users consented to share, but some users say they had no idea their AI conversations could be made public.<sup class="mobile-sup" style="font-size:12px;line-height:0px;" >3, 4</sup></p>
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>That&rsquo;s why the Mozilla community is calling on Meta to shut down the Discover feed until real privacy protections are in place.</strong> If enough of us add our voices, we can generate enough public pressure to push Meta to take action.</p>
+                     <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong><a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-t/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >Add your name to demand Meta suspend its invasive AI feed until the company can guarantee no private conversations are made public without clear, explicit, and informed opt-in consent.</a></strong></p>
+                      <div align="center"><a bgcolor="#595cf3" class="cta btn-primary " href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-i/" style="font-family:Helvetica, Arial, sans-serif;background-color:#595cf3;background-image:linear-gradient(#595cf3,#595cf3);border-width:2px;border-style:solid;border-color:#595cf3;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#595cf3;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:6pt;transition:0.3s !important;" ><strong>Sign now&nbsp;&rarr;</strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a></div>
+                                          
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="blockwrap mw450" role="presentation" width="640px" bgcolor="#e7e7fc" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <th align="left" class="blockwrap"  valign="middle" style="vertical-align:top;padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;" >
+                            <h2 class="dm-white" style="font-size:24px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:'Zilla Slab', Georgia, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;" >Together we’re calling on Meta to:</h2>
+							
+                            <ul class="mobile-list" style="Margin:0px 0px 0px 20px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >
+                        <li class="dm-white outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;font-weight:normal;" ><strong>Shut down the Discover Feed</strong> until real privacy protections are in place.</li>
+                            <li class="dm-white outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;font-weight:normal;" ><strong>Make all AI interactions private by default</strong> with no public sharing option unless explicitly enabled through informed consent.</li>
+                            <li class="dm-white outlook-li" style="Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;font-weight:normal;" ><strong>Provide full transparency</strong> about how many users have unknowingly shared private information.</li>
+                                <li class="dm-white outlook-li" style="Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;font-weight:normal;" ><strong>Create a universal, easy-to-use opt-out system</strong> for all Meta platforms that prevents user data from being used for AI training.</li>
+                                <li class="dm-white outlook-li" style="Margin:0px 0px 24px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;font-weight:normal;" ><strong>Notify all users </strong>whose conversations may have been made public, and allow them to delete their content permanently.</li>
+                            </ul>
+                              
+                              
+                              
+                            </th>
+                              
+                            
+                              
+                           
+                          
+                             
+                          </tr>
+                        </tbody>
+                      </table>
+                        
+                        
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Privacy, especially sensitive information we give to a chatbot, shouldn’t be a setting buried in a menu — it's a basic right.</p>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >From the deeply personal posts visible in Meta's AI &quot;Discovery Feed,&quot; it's not clear that all users know their queries are visible for the world to see. Meta needs to make it easier for people to control their privacy.</p>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >At Mozilla Foundation, we believe in a future where AI is worthy of our trust — where your data is handled with care, and your choices are honored by design. That means building tech that's transparent about when and how your data is shared. People deserve to know when their conversations are public, especially when they believe they're speaking in private.</p>
+                      <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >This is a moment to raise the bar. Let's demand better defaults and an internet that respects your voice, your choices, and your boundaries — starting with Meta&rsquo;s invasive new AI Discover Feed.</p>
+                      
+                      <p class="" style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong><a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-d/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >Add your name to demand that Meta shut down its invasive AI feed — until they can ensure that no private conversation is made public without clear, explicit, and informed opt-in consent.</a></strong></p>
+                      <div align="center"><a bgcolor="#595cf3" class="cta btn-primary " href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-h/" style="font-family:Helvetica, Arial, sans-serif;background-color:#595cf3;background-image:linear-gradient(#595cf3,#595cf3);border-width:2px;border-style:solid;border-color:#595cf3;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#595cf3;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:6pt;transition:0.3s !important;" ><strong>Sign now&nbsp;&rarr;</strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a></div>
+                                          
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Thank you for everything you do to protect privacy online.</p>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Neneh Darwin</strong><br />
+                        Senior Campaigner<br />
+                        Mozilla Foundation</p>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>P.S. </strong>While we work together to hold Meta accountable, here are some quick privacy tips for how to protect your privacy when using AI chatbots.</p>
+                        
+                        <ul class="mobile-list" style="Margin:0px 0px 0px 20px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >
+						<li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >Try using the accountless version of AI chatbots when possible</li>
+						<li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >Avoid &quot;Sign in with Google/Facebook&quot; options (Apple's sign-in is generally safer)</li>
+						<li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >Turn off automatic data-sharing in your phone or browser settings</li>
+                            <li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >Opt out of AI training whenever that option is available</li>
+						<li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >Don't share anything with an AI that you want to keep private</li>
+                            <li class="outlook-li" style="Margin:0px 0px 16px 0px;font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;text-align:Left;" >And finally: <strong><a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-k/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >Sign the petition to tell Meta to stop turning private chats into public content without meaningful opt-in informed consent.</a></strong></li>
+					  </ul>
+                       <hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:100%;max-width:600px;height:1px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" >
+                        
+					  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+						</table>
+						 
+                      <h2 class="light" style="font-size:18px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:Georgia, sans-serif;line-height:1.3;text-align:Left;vertical-align:Top;" >More Information:</h2>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >1. Harvard Business Review: <a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-u/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>How People Are Really Using Gen AI in 2025</strong></a>. April 9, 2025.</p>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >2. Meta: <a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-o/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Introducing the Meta AI App: A New Way to Access Your AI Assistant</strong></a>. April 29, 2025. </p>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >3. Crikey: <a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-b/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" > <strong>People are seemingly accidentally publishing their AI chat histories with Meta&rsquo;s new AI app</strong></a>. May 5, 2025. </p>
+                        <p style="font-family:'Nunito Sans',  Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >4. Fast Company: <a  href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-n/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" > <strong>Meta&rsquo;s AI social feed is a privacy disaster waiting to happen</strong></a>. May 5, 2025. </p>
+                       
+                      
+                      </td>
+                  </tr>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        
+         
+        
+        
+        <table class="darkmode" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="w100p darkmode-footer" role="presentation" style="width:640px;max-width:640px;background-color:#000000;background-image:linear-gradient(#000000,#000000);color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr> 
+                      <!--[if gte mso 16]>
+					  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;text-align:center;" >
+						<v:fill color="#000000" />
+						<v:textbox  inset="0,0,0,0" style="mso-fit-shape-to-text:true;" >
+					  <![endif]-->
+                      <div>
+                        <td align="center" style="padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h2 class="keep_white h2_footer" style="font-size:24px;font-weight:400;font-family:Georgia, serif;Margin:0px 0px 16px 0px;text-align:center;color:#ffffff;line-height:26px;" >Connect with us</h2>
+                              <!--[if lt mso 16]--> 
+                            </div>
+                          </div>
+                          
+                          <!--[endif]-->
+                          
+                          
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"  width="100%" style="border-spacing:0;font-family:Helvetica, Arial, sans-serif;color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td align="center"  valign="middle" style="Padding:0px 0px 0px 0px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                    <a href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-p/" name="Bluesky" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Bluesky" height="24" src="https://i3.cmail20.com/ei/y/85/4A4/65D/210825/csimport/bluesky-bw-24x24original_2.png"  title="bluesky" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-x/" name="twitter" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="x" height="24" 
+src="https://i4.cmail20.com/ei/y/85/4A4/65D/210825/csimport/social_icon_-_xoriginal_3.png"  title="x" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-m/" name="youtube" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="YouTube" height="24" src="https://i5.cmail20.com/ei/y/85/4A4/65D/210825/csimport/social_icon_-_youtubeoriginal_4.png"  title="YouTube" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a 
+href="https://links.mozilla.org/t/y-l-qlhpht-dditeijdr-c/" name="instagram" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Instagram" height="24" src="https://i6.cmail20.com/ei/y/85/4A4/65D/210825/csimport/social_icon_-_instagramoriginal_5.png"  title="Instagram" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:30px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h3 class="keep_white" style="font-size:18px;font-weight:bold;font-family:Georgia, serif;Margin:0px 0px 5px 0px;text-align:center;color:#FFFFFF;line-height:20px;" >Thanks for reading!</h3>
+                              <p class="keep_white" style="text-align:Center;font-weight:400;font-size:14px;line-height:1.5;font-family:Helvetica, Arial, sans-serif;color:#ffffff;Margin:0px 0px 24px 0px;" >You&rsquo;re receiving this email because you subscribed to Mozilla News. 
