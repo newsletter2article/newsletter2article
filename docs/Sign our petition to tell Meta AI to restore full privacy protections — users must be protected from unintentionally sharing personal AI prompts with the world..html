@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en"><head>
+<title>Mozilla</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<style type="text/css">
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8ccezI9tScg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85jU1EQVg.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunitosans/v11/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajQ6_UyI.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Arial';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa6ZfeM_74wlPZtksIFajo6_Q.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6H2pW2hz.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    mso-font-alt: 'Georgia';
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/zillaslab/v10/dFa5ZfeM_74wlPZtksIFYoEf6HOpWw.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    mso-font-alt: 'Georgia';
+}
+</style>
+<style type="text/css">
+	#outlook a {
+        padding: 0;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass span,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        display: block;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+      }
+      .appleFooter a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleText a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+      .appleWhite a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+  
+      u+.body .glist {
+        margin-left: 0 !important;
+      }
+      u+.body .ghide {
+        display: none;
+        display: none !important;
+      }
+      u+.body .gshow {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: 100% !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+       @media only screen and (max-width: 480px) {
+		 .cta.btn-top{
+		   padding-left: 5px !important;
+		   padding-right: 5px !important;
+		 }
+		 .mobile-list{
+			margin-left: 5px !important;
+		 }
+        }
+      @media only screen and (max-width: 640px) {
+        u+.body .glist {
+          margin-left: 25px !important;
+        }
+        .hideme {
+          display: none;
+          display: none !important;
+        }
+        .blockwrap {
+          display: block !important;
+        }
+        .inline {
+          display: inline !important;
+        }
+        .text-center {
+          text-align: center !important;
+        }
+        .margin-center {
+          margin: 0 auto !important;
+        }
+        .h30 {
+          height: 30px !important;
+        }
+        .mw450 {
+          width: 100%;
+          max-width: 450px !important;
+        }
+        .w100p {
+          width: 100% !important;
+        }
+        .wauto {
+          width: auto !important;
+        }
+        .column-spacer {
+          padding: 0 !important;
+          line-height: 15px !important;
+        }
+		.center-on-narrow {
+		text-align: center !important;
+		display: block !important;
+		float: none !important; 
+	    }
+        
+      }
+      
+      .fadeimg,
+      .fadeimg0 {
+        transition: 0.3s !important;
+        opacity: 1 !important;
+      }
+      .fadeimg:hover {
+        transition: 0.3s !important;
+        opacity: 0.5 !important;
+      }
+      .fadeimg0:hover {
+        transition: 0.3s !important;
+        opacity: 0 !important;
+      }
+      
+      .cta,
+      .cta span,
+      .cta-border {
+        transition: 0.3s !important;
+      }
+      
+      .cta:hover {
+        transition: 0.3s !important;
+        
+      }
+      
+      
+      
+      [data-ogsc] .darkmode {
+        background-color: #272623 !important;
+      }
+      [data-ogsc] .darkmode-footer {
+        background-color: #000000 !important;
+      }
+		  [data-ogsc] .dm-white {
+    color: #000000 !important;
+}
+[data-ogsc] .callout {
+    color: #ffffff !important;
+	
+}
+[data-ogsc] .callout p {
+    color: #ffffff !important;
+	
+}
+		  
+      [data-ogsc] h1,
+      [data-ogsc] h2,  
+	  [data-ogsc] h3,
+      [data-ogsc] p,
+      [data-ogsc] a,
+      [data-ogsc] b,
+	  [data-ogsc] strong,
+	  [data-ogsc] ul,
+	  [data-ogsc] li,
+	  [data-ogsc] ol,  
+      [data-ogsc] .appleText a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .accent {
+        color: #595cf3 !important;
+      }
+      [data-ogsc] a.cta span {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .darkmode-footer a {
+        color: #ffffff !important;
+      }
+      [data-ogsc] .link {
+        color: #b7b9fa !important;
+      }
+      [data-ogsc] .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: 45px !important;
+        max-width: 158px !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+      }
+      [data-ogsc] .light-img {
+        display: none;
+        display: none !important;
+      }
+      @media (prefers-color-scheme: dark) {
+       
+      .lightimage {
+          display: none; display: none !important;
+      }
+      
+      .darkimageWrapper, .darkimage {
+          display: inline-block !important;
+      }
+      
+      .darkmode {
+          background-color: #272623 !important;
+      }
+             
+        .darkmode-footer {
+          background-color: #000000 !important;
+        }
+	  .dm-white {
+    color: #000000 !important;
+	
+		}
+		
+.link, a.link {
+    color: #0D10BF !important;
+}
+		  h1.dm-white, h2.dm-white, p.dm-white, span.dm-white {
+    color: #000000 !important;
+}
+		   h1, h2, h3, p, b, a, ul, li {
+    color: #ffffff !important;
+}
+        
+        .accent {
+          color: #595cf3 !important;
+        }
+        
+		  
+        .darkmode-footer a {
+          color: #ffffff !important;
+        }
+        .link {
+          color: #b7b9fa !important;
+        }
+          
+        .dark-img {
+          display: block !important;
+          width: auto !important;
+          overflow: visible !important;
+          float: none !important;
+          max-height: 45px !important;
+          max-width: 158px !important;
+          line-height: auto !important;
+          margin-top: 0px !important;
+          visibility: inherit !important;
+        }
+        .light-img {
+          display: none;
+          display: none !important;
+        }
+      }
+	</style>
+<style type="text/css">
+    
+    .pop {display: inline-block;
+	transition: all .09s ease;
+	box-shadow: 7px 8px 0px 0px #000000; -webkit-box-shadow: 7px 8px 0px 0px #000000;}
+	.pop:hover{
+		box-shadow:none!important;
+		-webkit-box-shadow: none!important;
+		transform: translate(8px,7px)!important;}
+	</style>
+<style type="text/css">
+	.cta:hover {
+	border:none !important;
+	background-image: none !important;
+	}
+.btn-primary:hover {
+    background-color: #0D10BF !important;
+	background-image: none !important;
+	border: 2px solid #0D10BF !important;
+	color: #ffffff !important;
+          }
+.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+   .btn-green:hover {
+    background-color: #005E3A !important;
+	background-image: none !important;
+	border: 2px solid #005E3A !important;
+	color: #ffffff !important;
+          }
+    .btn-DarkGreen:hover {
+    background-color: #003420 !important;
+	background-image: none !important;
+	border: 2px solid #003420 !important;
+	color: #ffffff !important;
+          }
+.btn-zilla:hover {
+    background-color: #005e2a !important;
+	background-image: none !important;
+	border: 2px solid #005e2a !important;
+	color: #ffffff !important;
+          }
+    .btn-passion:hover {
+    background-color: #7f00ca !important;
+	background-image: none !important;
+	border: 2px solid #7f00ca !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-secondary:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-secondary:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+.btn-secondary:hover  .darkimageWrapper, .btn-secondary:hover .darkimage {
+    display: inline-block !important;
+}
+        
+        .btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 2px solid #000000 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover {
+    background-color: #000000 !important;
+	background-image: none !important;
+	border: 0 !important;
+	color: #ffffff !important;
+          }
+table.btn-top:hover td a {
+   
+	color: #ffffff !important;
+          }
+		
+.btn-top:hover .lightimage {
+    display: none;
+	display: none !important;
+	
+}
+    .cta.btn-top:hover, a.cta.btn-top:hover, .cta.btn-secondary:hover, a.cta.btn-secondary:hover  {color: #fffff0 !important; background-color:#000000 !important;}
+.btn-top:hover  .btn-top:hover .darkimage {
+    display: inline-block !important;
+}
+	a img:hover {opacity: 0.8;}
+	</style>
+<style type="text/css">
+	@media (prefers-color-scheme: dark) {
+		 .cta.btn-secondary, a.cta.btn-secondary {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-secondary, a.cta.btn-secondary {color: #00000f !important;}
+    
+		
+        .cta.btn-top, a.cta.btn-top {background-color:#fffff0 !important; }
+  	
+  		.cta.btn-top, a.cta.btn-top {color: #00000f !important;}
+		  }
+		  
+		  [data-ogsc] .cta.btn-secondary{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-secondary, [data-ogsc] a.cta.btn-secondary {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-secondary:hover,[data-ogsc] a.cta.btn-secondary:hover {
+  color: #ffffff !important;}
+        
+        
+    
+		
+		  
+		  
+		  [data-ogsc] .cta.btn-top{background-color:#fffff0 !important; }
+  
+		  [data-ogsc].cta.btn-top, [data-ogsc] a.cta.btn-top {
+  color: #00000f !important;
+}
+   
+		  [data-ogsc] .cta.btn-top:hover,[data-ogsc] a.cta.btn-top:hover {
+  color: #ffffff !important;}
+	.footer {    text-align: center;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+    </style>
+<style type="text/css">
+        u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-blend-difference { background:#000; mix-blend-mode:difference; }
+        u + .body .gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body .gmail-difference { background:#000; mix-blend-mode:difference; }
+	     u + .body span.gmail-screen { background:#000; mix-blend-mode:screen; }
+        u + .body span.gmail-difference { background:#000; mix-blend-mode:difference; }
+	  u + .body .dm_white { background:#ffffff; mix-blend-mode:screen;color:#000000; }
+      u + .body .dm_white { background:#ffffff; mix-blend-mode:difference;color:#000000; }
+	
+	
+	@media only screen and (max-width: 811px) {
+		u + .body .mobile-sup {
+			line-height:18px !important;
+		}
+		div > u + .body .mobile-sup {
+			line-height: 0px !important;
+		}
+	}
+</style>
+<!--[if mso 16]> 
+	<style>
+		ul li.outlook-li, ol li.outlook-li{margin-left: 5px !important !important;}
+	</style>
+<![endif]-->
+<!--[if gte mso 16]>
+	<style>
+		.keep_white {
+			mso-style-textfill-type:gradient !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000" !important;
+			color: #000000 !important;
+		}
+		.keep_black {
+			mso-style-textfill-type:gradient !important;
+			mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000" !important;
+			color: #ffffff !important;
+		}
+	</style>
+	<![endif]--> 
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+    
+    <style>
+        @media (prefers-color-scheme: dark )
+        
+        {
+            .highlight {
+                background-color: #E5D92F !important; 
+            }
+        
+        
+        }
+        </style>
+</head>
+<body class="body" id="body" style="padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;text-align:center;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;height:100% !important;width:100% !important;" >
+<div itemscope itemtype="http://schema.org/Organization">
+  <meta itemprop="logo" content="https://assets.mofoprod.net/network/images/Mozilla-48x48.original.png" />
+</div>
+    <div style="display:none;" >
+We proved we can make Meta listen. Here’s what’s next for this campaign:
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; 
+&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy;
+&nbsp;
+</div>
+    
+<table class="body" align="center" aria-label="Email from Mozilla" border="0" cellpadding="0" cellspacing="0" lang="en" role="article" style="width:100%;text-align:center;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;table-layout:fixed;background-color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td bgcolor="#ffffff" class="darkmode" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td style="font-size:1px;line-height:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+        
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr>
+                      <td align="center" class="w100p" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="w100p darkmode" role="presentation" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                          <tbody>
+                            <tr>
+                              <td align="left" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" > 
+                                <a href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-r/" name="Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Mozilla" class="lightimage"  name="Logo"  src="https://i1.cmail19.com/ei/y/77/D5C/E04/021213/csimport/mozilla-black-logooriginal_0.png"  title="Mozilla " width="158" style="border-width:0px;border-style:none;max-width:158px;height:auto;display:block;text-align:left;font-size:36px;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /> </a> 
+                                 
+                                <!--[if !mso]><! --> 
+                            <div align="center" class="dark-img" style="display:none;overflow:hidden;float:left;width:0px;max-height:0px;max-width:0px;line-height:0px;visibility:hidden;" > <a href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-y/" name="Dark_Logo_Top" style="color:#0D10BF;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="❤️ Mozilla ❤️" class="darkimage"  name="Logo Darkmode" src="https://i2.cmail19.com/ei/y/77/D5C/E04/021213/csimport/mozilla-white-logooriginal_1.png"  title="❤️ Mozilla ❤️" width="158" style="border-width:0;border-style:none;max-width:158px;height:auto;display:block;text-align:left;-ms-interpolation-mode:bicubic;line-height:100%;outline-style:none;text-decoration:none;" /></a></div>
+                           
+                              <!--<![endif]--> 
+                                
+                                </td>
+                              <td align="right" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                                                    <div> 
+                                  <a class="cta btn-top" href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-t/" name="Donate_Top" style="font-size:16px;font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-weight:bold;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:25px;padding-left:25px;color:#000000;display:inline-block;border-width:2px;border-style:solid;border-color:#000000;mso-padding-alt:0;mso-border-alt:2px solid #000000;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" > 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span style="mso-text-raise:8pt;transition:0.3s !important;" >&nbsp;Donate&nbsp;</span> 
+                                  <!--[if mso]><i style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></a> 
+                                   
+                                </div>
+                                                                 </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#ffffff" class="darkmode"  valign="top" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <table border="0" cellpadding="0" cellspacing="0" class="darkmode w100p" role="presentation"  width="640" style="width:640px;max-width:640px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tr>
+                    <td align="left" class="w100p" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                        <tbody>
+                          <tr>
+                            <td  class="" style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h2 style="font-size:24px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:'Zilla Slab', Georgia, sans-serif;line-height:1.2;text-align:Left;vertical-align:Top;color:#000000;" >Hello, Reader</h2>
+                        
+   
+                     
+                    <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >A few weeks ago, we sounded the alarm about Meta's AI "Discover Feed" — a public stream where deeply personal AI-generated conversations were ending up online.<sup class="mobile-sup" style="font-size:12px;line-height:0px;" >1</sup> Medical concerns, relationship confessions, work dilemmas, even people's exact locations were being broadcast to the world. And users often had no idea their private chats had gone public.</p>
+                    <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>The good news:</strong> Our campaign worked. More than 10,000 people signed our petition — including you. Major outlets including Business Insider, the BBC, The Washington Post, WIRED, and TechCrunch ran investigations.<sup class="mobile-sup" style="font-size:12px;line-height:0px;" >2, 3, 4, 5, 6</sup> Meta reached out to us directly, and their product team implemented real changes — including a mandatory warning screen serving as a crucial friction step to prevent accidental sharing.</p>
+                    <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>The disappointing news:</strong> Just days after implementing these privacy protections, Meta removed this educational friction step — a moment of clarity that helped users understand what they were sharing, where it would appear, and who could see it. This wasn’t just friction for friction’s sake — it was the right kind of friction: a simple, educational prompt that empowered people to make informed choices online.</p>
+                    <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Meta proved they <em>can</em> build these safeguards — they just chose to remove them. And it shows the power we have when we speak up. Even if the changes didn’t last, they happened because we demanded better. Now we need to keep the pressure on to make sure Meta makes these protections permanent.</p>
+                      					  
+					  
+					  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong><a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-u/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >If you believe technology should serve the people who use it, will you sign our petition demanding Meta restore these full privacy protections? Together, we can help users from accidentally sharing personal AI conversations on Meta’s public Discover Feed.</a></strong></p>
+						<div align="center"><a bgcolor="#595cf3" class="cta btn-primary " href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-o/" style="font-family:Helvetica, Arial, sans-serif;background-color:#595cf3;background-image:linear-gradient(#595cf3,#595cf3);border-width:2px;border-style:solid;border-color:#595cf3;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#595cf3;font-size:16px;Margin-top:5px;Margin-bottom:5px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:8pt;transition:0.3s !important;" ><strong> Add your name&nbsp;&rarr; </strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a> </div>
+						  
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+											           
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+                             <div align="center" style="text-align:Center;" ><p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><img src="https://i3.cmail19.com/ei/y/77/D5C/E04/021213/csimport/after-meta-ai-feedoriginal_yf0eknm_2.jpg" alt="Post to Feed" width="400" height="196" style="color:#ffffff;font-family:'Nunito Sans', Helvetica, Arial, sans-serif;text-align:center;font-weight:bold;font-size:36px;line-height:40px;text-decoration:none;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;width:100%;max-width:400px;-ms-interpolation-mode:bicubic;display:block;border-width:0;height:auto;outline-style:none;" /> </p></div>
+                              <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;text-align:center;" ><em>This was the prompt Meta briefly showed before users shared to their feed. It was a simple, effective way to help users avoid accidental oversharing — before Meta removed&nbsp;it.</em></p>
+                            
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Without that positive friction step, delicate conversations, calls for help, and accidental recordings are all at risk of unintentionally ending up in Meta's public feed. Again. Weeks of media coverage have shown example after example of embarrassing, unintentionally shared posts — Meta knows they need to act.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>This is what defiant optimism looks like.</strong> We refuse to accept that misleading invasions of our privacy are just &quot;the cost of innovation.&quot; When tech companies backtrack on reasonable protections that they are demonstrably able to deliver, we fight twice as hard.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Our work isn't done until those protections are permanent and complete.</p>
+						
+											  
+					  
+					  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong><a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-m/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" >Add your name to demand that Meta permanently protect sensitive AI conversations from being unintentionally shared with the world.</a></strong></p>
+						<div align="center"><a bgcolor="#595cf3" class="cta btn-primary " href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-c/" style="font-family:Helvetica, Arial, sans-serif;background-color:#595cf3;background-image:linear-gradient(#595cf3,#595cf3);border-width:2px;border-style:solid;border-color:#595cf3;text-decoration:none;padding-top:8px;padding-bottom:8px;padding-right:30px;padding-left:30px;color:#ffffff;display:inline-block;mso-padding-alt:0;text-underline-color:#595cf3;font-size:16px;Margin-top:5px;Margin-bottom:5px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;transition:0.3s !important;" ><span class="gmail-screen" style="transition:0.3s !important;" ><span class="gmail-difference" style="transition:0.3s !important;" ><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;mso-text-raise:15pt;" >&nbsp;</i><![endif]--><span 
+style="mso-text-raise:8pt;transition:0.3s !important;" ><strong> Sign now&nbsp;&rarr; </strong></span><!--[if mso]><i  hidden style="letter-spacing:25px;mso-font-width:-100%;" >&nbsp;</i><![endif]--></span></span> </a> </div>
+						  
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+  <tbody>
+    <tr>
+      <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+											  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Thank you for proving that when we organize, we can make tech companies listen. When we come together to demand better, we move closer to the future of technology we know is possible.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >Let's keep making good.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" ><strong>Neneh Darwin </strong><br />
+					    Senior Campaigner <br />
+					    Mozilla Foundation</p>
+						 <hr style="border-width:0;background-color:#D5DADF;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;color:#D5DADF;width:100%;max-width:600px;height:1px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;" >
+                        
+					  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+						  <tbody>
+							<tr>
+							  <td  class="" style="font-size:1px;line-height:24px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+							</tr>
+						  </tbody>
+					  </table>
+						 
+                      <h2 class="light" style="font-size:18px;font-weight:normal;Margin:0px 0px 24px 0px;font-family:Georgia, sans-serif;line-height:1.3;text-align:Left;vertical-align:Top;" >More Information:</h2>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >1. Mozilla Foundation: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-q/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Meta: Help Users Stop Accidentally Sharing Private AI Conversations</strong></a>. May 28, 2025.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >2. Business Insider: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-a/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Mark Zuckerberg has created the saddest place on the internet with Meta AI's public feed</strong></a>. June 11, 2025.</p>
+					  <p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >3. WIRED: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-f/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>The Meta AI App Lets You &lsquo;Discover&rsquo; People&rsquo;s Bizarrely Personal Chats</strong></a>. June 12, 2025.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >4. BBC: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-z/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Meta AI searches made public - but do all its users realise?</strong></a> June 13, 2025. </p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >5. Washington Post: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-v/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>Meta AI users confide on sex, God and Trump. Some don&rsquo;t know it&rsquo;s public</strong></a>. June 13, 2025.</p>
+						<p style="font-family:'Nunito Sans', Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;color:#000000;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;Margin:0 0px 24px 0px;font-weight:normal;" >6. TechCrunch: <a  href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-e/" style="text-decoration:underline;color:#0D10BF;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><strong>The Meta AI app is a privacy disaster</strong></a>. June 12, 2025.</p></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        
+         
+        
+        
+        <table class="darkmode" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="" style="padding-top:0px;padding-bottom:0px;padding-right:15px;padding-left:15px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" class="w100p darkmode-footer" role="presentation" style="width:640px;max-width:640px;background-color:#000000;background-image:linear-gradient(#000000,#000000);color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                  <tbody>
+                    <tr> 
+                      <!--[if gte mso 16]>
+					  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:640px;text-align:center;" >
+						<v:fill color="#000000" />
+						<v:textbox  inset="0,0,0,0" style="mso-fit-shape-to-text:true;" >
+					  <![endif]-->
+                      <div>
+                        <td align="center" style="padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" ><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:40px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h2 class="keep_white h2_footer" style="font-size:24px;font-weight:400;font-family:Georgia, serif;Margin:0px 0px 16px 0px;text-align:center;color:#ffffff;line-height:26px;" >Connect with us</h2>
+                              <!--[if lt mso 16]--> 
+                            </div>
+                          </div>
+                          
+                          <!--[endif]-->
+                          
+                          
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"  width="100%" style="border-spacing:0;font-family:Helvetica, Arial, sans-serif;color:#ffffff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td align="center"  valign="middle" style="Padding:0px 0px 0px 0px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                    <a href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-s/" name="Bluesky" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Bluesky" height="24" src="https://i4.cmail19.com/ei/y/77/D5C/E04/021213/csimport/bluesky-white-48x48original_3.png"  title="bluesky" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-g/" name="twitter" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="x" height="24" 
+src="https://i5.cmail19.com/ei/y/77/D5C/E04/021213/csimport/social_icon_-_xoriginal_4.png"  title="x" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-w/" name="youtube" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="YouTube" height="24" src="https://i6.cmail19.com/ei/y/77/D5C/E04/021213/csimport/social_icon_-_youtubeoriginal_5.png"  title="YouTube" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a> &nbsp; <a 
+href="https://links.mozilla.org/t/y-l-qgkiik-dditeijdr-yd/" name="instagram" style="color:#ffffff;font-weight:300;text-decoration:underline;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;" ><img alt="Instagram" height="24" src="https://i7.cmail19.com/ei/y/77/D5C/E04/021213/csimport/social_icon_-_instagramoriginal_6.png"  title="Instagram" width="24" style="border-width:0;display:inline-block;color:#ffffff;-ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none;text-decoration:none;" /></a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                            <tbody>
+                              <tr>
+                                <td style="font-size:1px;line-height:30px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;" >&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+                          <!--[if lt mso 16]-->
+                          
+                          <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:screen;" >
+                            <div style="background-color:#000;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;mix-blend-mode:difference;" > 
+                              
+                              <!--[endif]-->
+                              
+                              <h3 class="keep_white" style="font-size:18px;font-weight:bold;font-family:Georgia, serif;Margin:0px 0px 5px 0px;text-align:center;color:#FFFFFF;line-height:20px;" >Thanks for reading!</h3>
+                              <p class="keep_white" style="text-align:Center;font-weight:400;font-size:14px;line-height:1.5;font-family:Helvetica, Arial, sans-serif;color:#ffffff;Margin:0px 0px 24px 0px;" >You&rsquo;re receiving this email because you subscribed to Mozilla News. 
